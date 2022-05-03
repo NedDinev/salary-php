@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Заплати</title>
+  </head>
+  <body>
+    <h1>Заплати</h1>
+
+    <form name="f1" action="Zad9Red.php" method="post">
+      Задайте името на служителя:
+      <input type="text" name="slujitel" />
+      <br />
+      <br />
+      Изберете категория:
+      <br />
+      <br />
+      <input type="radio" name="r1" value="rak" />Ръководител:1000 лева
+      <br />
+      <br />
+      <input type="radio" name="r1" value="sat" />Сътрудник:600 лева
+      <br />
+      <br />
+      <input type="radio" name="r1" value="spez" />Специалист:800 лева
+      <br />
+      <br />
+      <input type="radio" name="r1" value="dr" />Друга:500 лева
+      <br />
+      <br />
+      Изберете стаж в навършени години:
+      <br />
+      <br />
+      <select name="s1">
+        <option value="g5">0-5 години (надбавка 4%)</option>
+        <option value="g12">6-12 години (надбавка 7%)</option>
+        <option value="g22">13-22 години (надбавка 11%)</option>
+        <option value="g23">Над 22 години (надбавка 16%)</option>
+      </select>
+
+      <input type="submit" value="Потвърдете" />
+    </form>
+  </body>
+</html>
